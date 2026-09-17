@@ -17,7 +17,7 @@ NotASlop buduje i strukturyzuje obecność firm w grafach wiedzy modeli LLM oraz
 
 ## 🚀 Kluczowe Funkcje Serwisu
 
-- **Deep Obsidian & Cyber-Emerald Spatial UI (Wersja 3.0):** Wielowymiarowy, nowoczesny interfejs z ambientowym oświetleniem i elementami glassmorphismu (`backdrop-filter: blur(20px)`).
+- **Oryginalna Paleta Warm Editorial (notaslop.com):** Klasyczna, prestiżowa kolorystyka znana z oficjalnej witryny (kremowe tła `#FAF7F2`, terakota `#D4704A`, głęboki atrament `#171310` i piaskowe akcenty `#F0EAE0`).
 - **Rzeźbiona Typografia:** Wyrazisty zestaw fontów `Plus Jakarta Sans` (display/UI z nacięciami ink-traps) + `Fraunces` (luksusowy szeryf dla prestiżowych akcentów) + `JetBrains Mono` (metryki techniczne).
 - **Interaktywny OLED Phone Simulator:** Symulator odpowiedzi ChatGPT/Siri na żywo dla 4 branż (Kawiarnia, Restauracja, Barber, Klinika medyczna) z natychmiastowym porównaniem *„Przed GEO”* vs *„Z NotASlop”*.
 - **Kalkulator Utraconych Przychodów:** Suwaki dynamicznie przeliczające straty biznesu wynikające z braku obecności w poleceniach AI.
@@ -33,7 +33,7 @@ NotASlop buduje i strukturyzuje obecność firm w grafach wiedzy modeli LLM oraz
 NotAslop/
 ├── index.html                                        # Główny landing page (symulator, kalkulator, audyt)
 ├── css/
-│   └── main.css                                      # Kompletny system stylów Deep Obsidian 3.0
+│   └── main.css                                      # Kompletny system stylów Warm Editorial z rzeźbioną typografią
 ├── js/
 │   └── app.js                                        # Reaktywna logika: i18n, symulator, kalkulator
 ├── kontakt/

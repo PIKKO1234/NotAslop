@@ -6,7 +6,7 @@
   <title>Kontakt | NotASlop — Sprawdź widoczność swojego lokalu w AI</title>
   <meta name="description" content="Napisz do nas na WhatsApp lub zadzwoń. W 15 minut sprawdzimy na żywo, jak ChatGPT, Siri i Apple Maps widzą Twoją firmę." />
   <link rel="canonical" href="https://notaslop.com/kontakt/" />
-  <meta name="theme-color" content="#08090D" />
+  <meta name="theme-color" content="#D4704A" />
   <meta property="og:title" content="Kontakt | NotASlop" />
   <meta property="og:description" content="Napisz do nas na WhatsApp lub zadzwoń. Sprawdzimy na żywo, czy AI poleca Twoją firmę." />
   <meta property="og:url" content="https://notaslop.com/kontakt/" />
@@ -60,70 +60,70 @@
       gap: 1.25rem;
     }
     .channel-card {
-      background: var(--surface-1);
-      border: 1px solid var(--border-subtle);
+      background: var(--white);
+      border: 1.5px solid var(--sand);
       border-radius: var(--radius-lg);
       padding: 1.75rem 2rem;
       display: flex;
       align-items: center;
       gap: 1.25rem;
       text-decoration: none;
-      color: var(--text-primary);
-      transition: all 0.22s ease;
+      color: inherit;
+      transition: all 0.2s ease;
     }
     .channel-card:hover {
       transform: translateY(-3px);
-      box-shadow: var(--shadow-md), 0 0 20px -5px var(--emerald-glow);
-      border-color: var(--emerald);
+      box-shadow: var(--shadow-md);
+      border-color: var(--terra);
     }
     .channel-card.featured {
-      background: linear-gradient(135deg, rgba(0, 240, 144, 0.15) 0%, rgba(19, 22, 34, 0.95) 100%);
-      border: 1px solid rgba(0, 240, 144, 0.4);
-      box-shadow: 0 12px 30px -5px rgba(0, 0, 0, 0.6), 0 0 25px -5px var(--emerald-glow);
+      background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+      color: #FFFFFF;
+      border: none;
+      box-shadow: 0 12px 30px -5px rgba(18, 140, 126, 0.4);
     }
     .channel-ico {
-      width: 54px;
-      height: 54px;
-      border-radius: 16px;
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.6rem;
-      background: var(--surface-2);
-      border: 1px solid var(--border-subtle);
+      background: var(--sand);
       flex-shrink: 0;
     }
     .channel-card.featured .channel-ico {
-      background: var(--emerald-bg);
-      border-color: rgba(0, 240, 144, 0.3);
+      background: rgba(255, 255, 255, 0.2);
     }
     .channel-info .label {
-      font-family: var(--fm);
-      font-size: 0.76rem;
+      font-size: 0.8rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--emerald);
-      margin-bottom: 0.25rem;
+      letter-spacing: 0.05em;
+      opacity: 0.8;
+      margin-bottom: 0.2rem;
     }
     .channel-info .val {
       font-family: var(--fd);
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       font-weight: 800;
-      letter-spacing: -0.02em;
+      letter-spacing: -0.01em;
+    }
+    .channel-card.featured .val {
       color: #FFFFFF;
     }
     .work-hours {
-      background: var(--surface-1);
-      border: 1px dashed var(--border-medium);
+      background: var(--warm);
+      border: 1px dashed var(--sand-dark);
       border-radius: var(--radius-md);
-      padding: 1.35rem 1.5rem;
-      font-size: 0.9rem;
-      color: var(--text-secondary);
-      line-height: 1.65;
+      padding: 1.2rem 1.4rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
     }
     .work-hours strong {
-      color: #FFFFFF;
+      color: var(--ink);
     }
     @media (max-width: 860px) {
       .contact-grid {
@@ -145,7 +145,7 @@
         <li><a href="/#kalkulator">Kalkulator strat</a></li>
         <li><a href="/#wyniki">Efekty</a></li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a href="/kontakt/" style="color: var(--emerald);">Kontakt</a></li>
+        <li><a href="/kontakt/" style="color: var(--terra);">Kontakt</a></li>
       </ul>
 
       <div class="nav-actions">
@@ -229,7 +229,7 @@
 
           <div class="form-field">
             <label for="cMsg">Wiadomość / Dodatkowe uwagi (opcjonalnie)</label>
-            <textarea id="cMsg" rows="3" style="font-family:var(--fb);font-size:0.95rem;padding:0.85rem 1rem;border:1px solid var(--border-medium);border-radius:var(--radius-sm);background:var(--surface-2);color:#FFFFFF;" placeholder="Chcę sprawdzić, dlaczego asystenci AI polecają konkurencję z ulicy obok..."></textarea>
+            <textarea id="cMsg" rows="3" style="font-family:var(--fb);font-size:0.95rem;padding:0.8rem;border:1.5px solid var(--sand-dark);border-radius:var(--radius-sm);background:var(--warm);color:var(--ink);" placeholder="Chcę sprawdzić, dlaczego asystenci AI polecają konkurencję z ulicy obok..."></textarea>
           </div>
 
           <div class="form-actions">
