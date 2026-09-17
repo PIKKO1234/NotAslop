@@ -4,7 +4,7 @@
    Zero external CSS frameworks. 100% Native, blazing fast.
    ══════════════════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400;1,9..144,600;1,9..144,700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&family=Syne:wght@600;700;800&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -41,11 +41,11 @@
   --red-light: #FFEBEE;
   --cobalt: #3478F6;
   
-  /* Sculpted Typography Stack */
-  --fd: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --fb: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --fs: 'Fraunces', Georgia, serif;
-  --fm: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  /* Original Typography Stack from notaslop.com */
+  --fd: 'Syne', -apple-system, BlinkMacSystemFont, sans-serif;
+  --fb: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --fs: 'Instrument Serif', Georgia, serif;
+  --fm: 'Space Mono', ui-monospace, monospace;
   
   /* Shadows & Curves */
   --radius-sm: 8px;
@@ -111,15 +111,22 @@ body {
   background-color: currentColor;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 .section-title {
   font-family: var(--fd);
-  font-size: clamp(2rem, 4.2vw, 3.2rem);
+  font-size: clamp(1.75rem, 4vw, 3.2rem);
   font-weight: 800;
-  line-height: 1.12;
+  line-height: 1.15;
   letter-spacing: -0.025em;
   color: var(--ink);
   margin-bottom: 1.1rem;
   text-wrap: balance;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .section-title em {
@@ -433,7 +440,8 @@ body {
 .hero-trust-bar {
   display: flex;
   align-items: center;
-  gap: 1.4rem;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.4rem;
   padding-top: 1.4rem;
   border-top: 1px solid var(--sand);
   font-size: 0.84rem;
@@ -444,6 +452,7 @@ body {
   display: flex;
   gap: 0.8rem;
   align-items: center;
+  flex-wrap: wrap;
   font-family: var(--fm);
   font-size: 0.76rem;
   font-weight: 700;
@@ -456,16 +465,21 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .phone-device {
-  width: min(340px, 92vw);
+  width: 100%;
+  max-width: 340px;
   background: #0E0C0A;
   border-radius: 46px;
   padding: 0.85rem;
   box-shadow: 0 40px 100px -25px rgba(23, 19, 16, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08) inset;
   position: relative;
   transition: transform 0.3s ease;
+  box-sizing: border-box;
 }
 
 .phone-notch {
@@ -592,6 +606,8 @@ body {
   gap: 0.65rem;
   width: 100%;
   max-width: 340px;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .sim-toggle-mode {
@@ -600,6 +616,7 @@ body {
   background: var(--sand);
   padding: 3px;
   border-radius: 12px;
+  min-width: 0;
 }
 
 .sim-mode-btn {
@@ -613,6 +630,7 @@ body {
   cursor: pointer;
   color: var(--muted);
   transition: all 0.2s ease;
+  min-width: 0;
 }
 
 .sim-mode-btn.active.before {
@@ -631,10 +649,21 @@ body {
   display: flex;
   gap: 0.4rem;
   overflow-x: auto;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.sim-chips::-webkit-scrollbar {
+  display: none;
 }
 
 .sim-chip {
+  flex-shrink: 0;
   white-space: nowrap;
   background: var(--white);
   border: 1px solid var(--sand-dark);
@@ -842,23 +871,24 @@ body {
   background: var(--ink);
   color: var(--cream);
   border-radius: var(--radius-lg);
-  padding: 2.2rem;
+  padding: clamp(1.6rem, 4vw, 2.2rem);
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .calc-result-card::before {
   content: '';
   position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(212, 112, 74, 0.15) 0%, transparent 60%);
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(212, 112, 74, 0.18) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -874,12 +904,15 @@ body {
 
 .calc-amount {
   font-family: var(--fd);
-  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  font-size: clamp(1.8rem, 4.5vw, 3.2rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   color: #FFFFFF;
-  line-height: 1.1;
+  line-height: 1.15;
   margin-bottom: 0.6rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .calc-subtext {
@@ -1313,7 +1346,10 @@ body {
   border-bottom: 1.5px solid var(--sand);
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.75rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .legal-section h2 .sec-badge {
@@ -1349,6 +1385,7 @@ body {
 
 .legal-table {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   margin: 1.2rem 0;
   font-size: 0.9rem;
@@ -1358,6 +1395,7 @@ body {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--sand);
   vertical-align: top;
+  word-break: break-word;
 }
 
 .legal-table td:first-child {
@@ -1374,12 +1412,18 @@ body {
   margin: 1.25rem 0;
   font-size: 0.9rem;
   color: var(--ink-2);
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.legal-alert a {
+  word-break: break-all;
 }
 
 /* ── BLOG CARDS & LAYOUT ── */
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 1.8rem;
   margin: 3rem 0;
 }
@@ -1410,6 +1454,8 @@ body {
   line-height: 1.25;
   letter-spacing: -0.015em;
   color: var(--ink);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .blog-card p {
@@ -1434,10 +1480,6 @@ body {
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 3rem;
-  }
-  
-  .phone-mockup-wrapper {
-    order: -1;
   }
   
   .ticker-grid {
@@ -1469,8 +1511,42 @@ body {
     display: none;
   }
   
+  .nav-cta-btn {
+    display: none;
+  }
+  
   .mobile-nav-toggle {
     display: block;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .calc-box {
+    padding: clamp(1.4rem, 4vw, 2.2rem);
+    gap: 2rem;
+  }
+
+  .calc-result-card {
+    padding: clamp(1.4rem, 4vw, 2rem);
+  }
+
+  .audit-card {
+    padding: clamp(1.4rem, 4vw, 2.2rem);
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 2rem;
+    width: 100%;
   }
   
   .footer-top {
@@ -1481,5 +1557,141 @@ body {
   .footer-bottom {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .sw {
+    padding: 0 1rem;
+  }
+  
+  .section {
+    padding: clamp(3rem, 6vw, 4.2rem) 0;
+  }
+
+  .hero-section {
+    padding-top: calc(4.2rem + 1.4rem);
+    padding-bottom: 2.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(1.9rem, 7vw, 2.5rem);
+    line-height: 1.1;
+  }
+
+  .section-title {
+    font-size: clamp(1.55rem, 6.2vw, 2.1rem);
+    line-height: 1.16;
+  }
+
+  .phone-device {
+    border-radius: 38px;
+    padding: 0.65rem;
+  }
+
+  .phone-screen {
+    min-height: 460px;
+    border-radius: 32px;
+  }
+
+  .sim-toggle-mode {
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+  }
+
+  .sim-mode-btn {
+    font-size: 0.72rem;
+    padding: 0.45rem 0.2rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .ticker-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+
+  .ticker-item .val {
+    font-size: 1.6rem;
+  }
+
+  .ticker-item .desc {
+    font-size: 0.78rem;
+  }
+
+  .vs-card {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .vs-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .proof-card,
+  .process-card {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .proof-metric {
+    font-size: 1.85rem;
+  }
+
+  .audit-card {
+    padding: 1.5rem 1.1rem;
+    border-radius: var(--radius-lg);
+  }
+
+  .form-field input,
+  .form-field select {
+    font-size: 16px;
+  }
+
+  .channel-card {
+    padding: 1.2rem 1.1rem;
+    gap: 0.9rem;
+  }
+
+  .channel-info .val {
+    font-size: 1.05rem;
+    word-break: break-all;
+  }
+
+  .legal-box {
+    padding: 1.4rem 1.1rem;
+  }
+
+  .legal-table, .legal-table tbody, .legal-table tr, .legal-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .legal-table tr {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--sand);
+    padding-bottom: 0.75rem;
+  }
+
+  .legal-table td {
+    padding: 0.2rem 0;
+    border-bottom: none;
+  }
+
+  .legal-table td:first-child {
+    width: 100%;
+    color: var(--terra);
+    padding-bottom: 0.25rem;
+  }
+
+  .legal-section h2 {
+    font-size: 1.15rem;
+    gap: 0.5rem;
+  }
+
+  .blog-card {
+    padding: 1.4rem 1.15rem;
+  }
+
+  .blog-card h3 {
+    font-size: 1.15rem;
   }
 }

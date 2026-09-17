@@ -18,7 +18,8 @@ NotASlop buduje i strukturyzuje obecność firm w grafach wiedzy modeli LLM oraz
 ## 🚀 Kluczowe Funkcje Serwisu
 
 - **Oryginalna Paleta Warm Editorial (notaslop.com):** Klasyczna, prestiżowa kolorystyka znana z oficjalnej witryny (kremowe tła `#FAF7F2`, terakota `#D4704A`, głęboki atrament `#171310` i piaskowe akcenty `#F0EAE0`).
-- **Rzeźbiona Typografia:** Wyrazisty zestaw fontów `Plus Jakarta Sans` (display/UI z nacięciami ink-traps) + `Fraunces` (luksusowy szeryf dla prestiżowych akcentów) + `JetBrains Mono` (metryki techniczne).
+- **Autentyczna Typografia z notaslop.com:** Oryginalny zestaw krojów pisma z oficjalnej strony — `Syne` (nowoczesne, wyraziste nagłówki o geometrycznym sznycie), `DM Sans` (ergonomiczny, ultra-czytelny krój treści), `Instrument Serif` (klasyczny, prestiżowy szeryf dla akcentów kursywą) oraz `Space Mono` (dane techniczne i metryki).
+- **Doskonała Responsywność Mobilna:** 100% responsywny układ przetestowany na ekranach o szerokościach 320px, 360px, 375px, 390px i 412px z zerowym przesunięciem poziomym (`scrollWidth === clientWidth`) oraz dedykowanym, pełnoekranowym mobilnym panelem nawigacyjnym (hamburger drawer).
 - **Interaktywny OLED Phone Simulator:** Symulator odpowiedzi ChatGPT/Siri na żywo dla 4 branż (Kawiarnia, Restauracja, Barber, Klinika medyczna) z natychmiastowym porównaniem *„Przed GEO”* vs *„Z NotASlop”*.
 - **Kalkulator Utraconych Przychodów:** Suwaki dynamicznie przeliczające straty biznesu wynikające z braku obecności w poleceniach AI.
 - **Wielojęzyczność (PL / EN):** Reaktywny silnik i18n bez przeładowania strony, zapamiętujący wybór w `localStorage`.
