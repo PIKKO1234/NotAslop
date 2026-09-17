@@ -1,0 +1,11 @@
+# Temporary & cache files
+temp_video.mp4
+temp_audio.wav
+test_frame.png
+*.log
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
