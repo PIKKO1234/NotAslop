@@ -1,4 +1,5 @@
 # Temporary & cache files
+*.mp4
 temp_video.mp4
 temp_audio.wav
 test_frame.png
