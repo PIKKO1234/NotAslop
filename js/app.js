@@ -18,48 +18,53 @@
       navKontakt: 'Kontakt',
       navCta: 'Bezpłatny pomiar',
 
-      heroEyebrow: 'Pozycjonowanie w ChatGPT · Gemini · Apple Maps',
-      heroH1: 'Turysta właśnie zapytał,<br>dokąd pójść.<br><em>AI poleciło trzy miejsca.</em>',
-      heroSub: 'Nie dziesięć stron wyników jak w Google. <strong>Dwie, trzy nazwy.</strong> Codziennie w Twojej okolicy pada to pytanie, a na krótką listę poleceń trafiają ci, których AI zna najlepiej.',
-      heroCtaPrimary: 'Zajmij swoje miejsce',
+      heroEyebrow: 'Pozycjonowanie w ChatGPT · Gemini · Siri · Apple Maps',
+      heroH1: 'Gdy klient pyta asystenta AI,<br>Twoja firma musi być<br><em>odpowiedzią numer jeden.</em>',
+      heroSub: 'Nie dziesięć stron linków jak w dawnym Google. <strong>Jedna, dwie konkretne rekomendacje.</strong> Codziennie w Twojej branży i okolicy padają tysiące zapytań głosowych, a zyski zgarniają ci, których modele LLM uznają za bezdyskusyjny autorytet.',
+      heroCtaPrimary: 'Zajmij swoje miejsce w AI',
       heroCtaGhost: 'Zobacz jak to działa',
-      heroTrustText: 'AI, w których budujemy widoczność:',
+      heroTrustText: 'Silniki AI, w których budujemy widoczność:',
 
       simTitle: 'Asystent AI w telefonie',
       simOnline: 'Gotowy do odpowiedzi',
       simBeforeBtn: '🔴 Przed wdrożeniem GEO',
       simAfterBtn: '🟢 Po wdrożeniu NotASlop',
 
+      chipMedical: '🦷 Klinika Stomatologii',
+      chipLegal: '⚖️ Kancelaria Prawna',
+      chipPremium: '✨ Auto Detailing & PPF',
+      chipDining: '🍽️ Restauracja Fine Dining',
+
       stripStat1Val: '150 000+',
-      stripStat1Label: 'pytań o lokale zadają Polacy asystentom AI każdego dnia',
-      stripStat2Val: '2-3',
-      stripStat2Label: 'nazwy lokali padają w rekomendacji asystenta',
+      stripStat1Label: 'pytań o lokalnych specjalistów zadają Polacy asystentom AI każdego dnia',
+      stripStat2Val: '1-2',
+      stripStat2Label: 'konkretne firmy rekomenduje asystent w bezpośredniej odpowiedzi',
       stripStat3Val: '0 zł',
-      stripStat3Label: 'płacisz za każde polecenie po zbudowaniu widoczności',
+      stripStat3Label: 'płacisz za kliknięcie — ruch z AI trafia bezpośrednio do Twoich drzwi',
       stripStat4Val: '5-7 dni',
-      stripStat4Label: 'trwa pełna konfiguracja fundamentów obecności w AI',
+      stripStat4Label: 'trwa pełna konfiguracja fundamentów obecności w grafach wiedzy',
 
       vsLabel: 'Moment Prawdy',
-      vsH2: 'To samo pytanie turysty.<br><em>Tylko jeden lokal zarabia.</em>',
-      vsSub: 'Gdy ktoś pyta asystenta AI o rekomendację, modele nie losują odpowiedzi. Czerpią ze spójnych profili bazowych i map.',
+      vsH2: 'To samo zapytanie klienta premium.<br><em>Tylko jedna firma zarabia.</em>',
+      vsSub: 'Gdy ktoś pyta asystenta AI o rekomendację najlepszego specjalisty, modele nie losują odpowiedzi. Czerpią ze zweryfikowanych grafów wiedzy i autorytetu semantycznego.',
       vsBadBadge: 'Bez optymalizacji GEO',
       vsBadTitle: 'AI nie wie, że istniejesz',
-      vsBad1: 'Klient pyta o Twój profil usług. Na liście poleceń jest wyłącznie konkurencja.',
-      vsBad2: 'Dane w Apple Maps i modelach są niekompletne, błędne lub nieistniejące.',
-      vsBad3: 'Płacisz krocie za tradycyjne reklamy, które ludzie po prostu przewijają.',
-      vsBad4: 'Każdy dzień zwłoki to dziesiątki gości, którzy poszli do lokalu obok.',
+      vsBad1: 'Klient pyta o Twoją specjalizację. Na liście poleceń jest wyłącznie konkurencja.',
+      vsBad2: 'Dane w Apple Maps i modelach LLM są niespójne, szczątkowe lub nieistniejące.',
+      vsBad3: 'Płacisz krocie za tradycyjne reklamy CPC, na które klienci premium mają ślepotę banerową.',
+      vsBad4: 'Każdy tydzień zwłoki to dziesiątki zamożnych klientów oddanych podmiotom z sąsiedztwa.',
       vsGoodBadge: 'Z NotASlop',
-      vsGoodTitle: 'AI zna Twój lokal i poleca go #1',
-      vsGood1: 'Na kluczowe pytania w okolicy Twoja nazwa pada na podium rekomendacji.',
-      vsGood2: 'Kompletny profil bazowy: godziny, autorskie zdjęcia, atrybuty i opinie.',
-      vsGood3: 'Klient trafia prosto do Twoich drzwi bez pośredników i drogich prowizji.',
-      vsGood4: 'Raz wypracowana pozycja w grafie wiedzy AI rośnie z każdym kolejnym miesiącem.',
+      vsGoodTitle: 'AI zna Twoją markę i poleca ją #1',
+      vsGood1: 'Na kluczowe zapytania branżowe w regionie Twoja nazwa pada na 1. miejscu rekomendacji.',
+      vsGood2: 'Kompletny semantyczny profil bazowy: certyfikaty, atrybuty, opinie i weryfikacja Apple.',
+      vsGood3: 'Klient dzwoni lub rezerwuje wizytę natychmiast, bez pośredników i prowizji agencyjnych.',
+      vsGood4: 'Raz wypracowana pozycja w grafie wiedzy AI utrwala się i rośnie z każdą aktualizacją modeli.',
 
       calcLabel: 'Policz sam',
       calcH2: 'Ile kosztuje niewidzialność w AI?',
-      calcSub: 'Sprawdź, ile obrotu miesięcznie tracisz na rzecz konkurencji, którą asystenci AI polecają zamiast Ciebie.',
-      calcGuestsLabel: 'Ilu gości/klientów obsługujesz dziennie?',
-      calcTicketLabel: 'Średni rachunek / wydatek klienta:',
+      calcSub: 'Sprawdź, ile obrotu miesięcznie tracisz na rzecz konkurentów, których asystenci AI polecają zamiast Ciebie.',
+      calcGuestsLabel: 'Ilu klientów / pacjentów obsługujesz dziennie?',
+      calcTicketLabel: 'Średnia wartość transakcji / wizyty:',
       calcResultTag: 'Szacunkowa miesięczna strata przy braku GEO',
       calcResultSub: 'Tyle przychodu może uciekać do polecanej przez AI konkurencji w Twojej dzielnicy (zakładając ~8% zapytań przez AI).',
       calcCta: 'Odzyskaj tych klientów →',
@@ -67,44 +72,44 @@
       proofLabel: 'Rezultaty',
       proofH2: 'Twarde dane z wdrożeń GEO',
       proofSub: 'Nie obiecujemy cudów — budujemy mierzalną widoczność potwierdzoną w panelach analitycznych.',
-      proof1Val: '+184%',
-      proof1Tag: 'Kawiarnia Specialty · Kraków',
-      proof1Desc: 'Wzrost zapytań o trasę dojazdu w Apple Maps w 45 dni od pełnej konfiguracji grafu wiedzy i wizytówki.',
-      proof2Val: '#1 polecenie',
-      proof2Tag: 'Włoskie Bistro · Warszawa',
-      proof2Desc: 'Stałe pierwsze miejsce w odpowiedziach ChatGPT i Siri na zapytanie o najlepszą pizzę w promieniu 1.5 km.',
-      proof3Val: '+92 rezerwacje',
-      proof3Tag: 'Restauracja Autorska · Gdańsk',
-      proof3Desc: 'Miesięczny przyrost bezpośrednich rezerwacji od gości zagranicznych korzystających z asystentów podróży AI.',
+      proof1Val: '+260% zapytań',
+      proof1Tag: 'Klinika Stomatologii Estetycznej · Warszawa',
+      proof1Desc: 'Wzrost bezpośrednich połączeń i zapytań o trasę w Apple Maps po 45 dniach wdrożenia semantycznego profilu GEO.',
+      proof2Val: '#1 rekomendacja',
+      proof2Tag: 'Kancelaria Prawa Gospodarczego · Kraków',
+      proof2Desc: 'Stałe pierwsze miejsce w odpowiedziach ChatGPT i Gemini na zapytania o audyty prawne spółek i fuzje M&A.',
+      proof3Val: '+115 pacjentów/mc',
+      proof3Tag: 'Centrum Medycyny & Diagnostyki · Wrocław',
+      proof3Desc: 'Miesięczny przyrost nowych pacjentów z zapytań głosowych Siri oraz asystentów mobilnych szukających specjalistów.',
 
       processLabel: 'Jak działamy',
-      processH2: 'Ty prowadzisz biznes.<br><em>My dbamy o to, by AI o Tobie wiedziało.</em>',
-      processSub: 'Trzy proste kroki, które zamieniają niewidzialność w strumień poleceń.',
+      processH2: 'Ty rozwijasz biznes.<br><em>My dbamy o to, by AI polecało właśnie Ciebie.</em>',
+      processSub: 'Trzy precyzyjne kroki, które zamieniają niewidzialność w algorytmach w stały strumień klientów.',
       step1Num: '01',
       step1Title: 'Bezpłatny Audyt Widoczności',
-      step1Desc: '15 minut. Na żywo sprawdzamy, co ChatGPT, Gemini i Siri mówią dziś o Twojej branży w Twojej okolicy i czy w ogóle Cię widzą.',
+      step1Desc: '15 minut. Na żywo sprawdzamy, co ChatGPT, Gemini, Siri i Perplexity mówią dziś o Twojej branży w Twojej okolicy i czy w ogóle Cię widzą.',
       step2Num: '02',
-      step2Title: 'Konfiguracja Fundamentów',
-      step2Desc: 'Strukturyzujemy dane, profile w mapach Apple i ekosystemie baz wiedzy. Zapewniamy kompletne atrybuty, z których AI buduje polecenia.',
+      step2Title: 'Konfiguracja Fundamentów GEO',
+      step2Desc: 'Strukturyzujemy dane, profile w ekosystemie Apple Business Connect i bazach wiedzy. Wdrażamy encje, z których AI buduje bezpośrednie rekomendacje.',
       step3Num: '03',
       step3Title: 'Miesięczna Ochrona Pozycji',
-      step3Desc: 'Algorytmy ewoluują, a my trzymamy rękę na pulsie. Co miesiąc otrzymujesz czytelny raport: wyświetlenia, wyznaczone trasy i pozycje.',
+      step3Desc: 'Algorytmy ewoluują, a my monitorujemy Twój Share of Voice w AI. Co miesiąc otrzymujesz czytelny raport: wywołania, wyświetlenia i pozycje.',
 
       auditLabel: 'Zacznij tutaj',
-      auditH2: 'Sprawdź widoczność swojego lokalu w AI',
-      auditSub: 'Bez sztywnego cennika z półki. Najpierw robimy bezpłatny pomiar: pokazujemy, czy asystenci AI wymieniają Twój lokal i kto zgarnia polecenia w Twojej dzielnicy.',
+      auditH2: 'Sprawdź widoczność swojej firmy w AI',
+      auditSub: 'Bez sztywnego cennika z półki. Najpierw robimy bezpłatny pomiar: pokazujemy, czy asystenci AI wymieniają Twoją markę i kto zgarnia polecenia w Twojej branży.',
       auditExclTitle: 'Zasada wyłączności terytorialnej',
-      auditExclText: 'W danej kategorii i konkretnej okolicy współpracujemy tylko z ograniczoną liczbą lokali. Nie pozycjonujemy dwóch sąsiadujących kawiarni przeciwko sobie.',
+      auditExclText: 'W danej kategorii i na konkretnym obszarze współpracujemy tylko z 1–2 wyselekcjonowanymi partnerami. Nie pozycjonujemy dwóch bezpośrednio konkurujących podmiotów przeciwko sobie.',
       auditFormTitle: 'Zamów bezpłatny audyt AI',
-      auditFormSub: 'Zajmie Ci to 30 sekund. Wyniki odeślemy na wybrany kontakt.',
-      lblVenue: 'Nazwa Twojego lokalu / firmy',
+      auditFormSub: 'Zajmie Ci to 30 sekund. Wyniki odeślemy bezpośrednio na wskazany kontakt.',
+      lblVenue: 'Nazwa Twojej firmy / kliniki / lokalu',
       lblCity: 'Miasto / Dzielnica',
       lblCategory: 'Branża',
-      lblContact: 'Twój WhatsApp lub telefon / e-mail',
-      catCoffee: 'Kawiarnia / Cukiernia',
-      catResto: 'Restauracja / Bar',
-      catBeauty: 'Salon Beauty / Barber',
-      catService: 'Usługi / Zdrowie / Inne',
+      lblContact: 'Twój WhatsApp, telefon lub e-mail',
+      catMedical: 'Stomatologia / Klinika / Zdrowie',
+      catLegal: 'Kancelaria Prawna / B2B / Finanse',
+      catPremium: 'Auto Detailing / Uroda / Usługi Premium',
+      catDining: 'Restauracja Fine Dining / Hotel',
       btnAuditWa: 'Sprawdź przez WhatsApp (1 kliknięcie)',
       btnAuditDirect: 'Wyślij zgłoszenie formularzem',
       auditGuarantee: '🔒 100% bezpłatnie, bez żadnych zobowiązań. Odpisujemy w max 2 godziny.',
@@ -142,93 +147,98 @@
       navKontakt: 'Contact',
       navCta: 'Free AI Check',
 
-      heroEyebrow: 'AI Visibility in ChatGPT · Gemini · Apple Maps',
-      heroH1: 'A tourist just asked<br>where to go.<br><em>AI recommended three places.</em>',
-      heroSub: 'Not ten pages of search links like Google. <strong>Two or three names.</strong> That question is asked in your neighborhood every single day — and the short list goes to who AI knows best.',
-      heroCtaPrimary: 'Claim your spot',
+      heroEyebrow: 'AI Visibility in ChatGPT · Gemini · Siri · Apple Maps',
+      heroH1: 'When a client asks an AI assistant,<br>your business must be<br><em>the number one recommendation.</em>',
+      heroSub: 'Not ten pages of search links like legacy Google. <strong>One or two definitive recommendations.</strong> Every day in your sector and city, thousands of voice searches take place, and clients go to those whom LLMs identify as undeniable authorities.',
+      heroCtaPrimary: 'Claim your spot in AI',
       heroCtaGhost: 'See how it works',
-      heroTrustText: 'AI platforms we optimize for:',
+      heroTrustText: 'AI engines we build visibility in:',
 
       simTitle: 'AI Phone Assistant',
       simOnline: 'Ready to answer',
       simBeforeBtn: '🔴 Before GEO optimization',
       simAfterBtn: '🟢 With NotASlop',
 
+      chipMedical: '🦷 Dental Clinic',
+      chipLegal: '⚖️ Law Firm',
+      chipPremium: '✨ Auto Detailing & PPF',
+      chipDining: '🍽️ Fine Dining Restaurant',
+
       stripStat1Val: '150,000+',
-      stripStat1Label: 'daily local recommendations asked to AI assistants',
-      stripStat2Val: '2-3',
-      stripStat2Label: 'venues mentioned in assistant responses',
+      stripStat1Label: 'daily local recommendations asked to AI assistants in Poland',
+      stripStat2Val: '1-2',
+      stripStat2Label: 'specific businesses recommended in direct AI responses',
       stripStat3Val: '0€ / $0',
-      stripStat3Label: 'paid per recommendation once presence is established',
+      stripStat3Label: 'paid per click — AI traffic arrives directly at your doorstep',
       stripStat4Val: '5-7 days',
-      stripStat4Label: 'to fully configure baseline AI knowledge profile',
+      stripStat4Label: 'to fully configure baseline presence in AI knowledge graphs',
 
       vsLabel: 'Moment of Truth',
-      vsH2: 'The exact same question.<br><em>Only one venue earns.</em>',
-      vsSub: 'When someone asks AI for a recommendation, models do not pick randomly. They cite verified baseline knowledge graphs and maps.',
-      vsBadBadge: 'Without GEO',
+      vsH2: 'The exact same premium client inquiry.<br><em>Only one business earns.</em>',
+      vsSub: 'When someone asks an AI assistant for a top specialist recommendation, models do not pick randomly. They cite verified knowledge graphs and semantic authority.',
+      vsBadBadge: 'Without GEO optimization',
       vsBadTitle: 'AI does not know you exist',
-      vsBad1: 'A customer searches your category. The AI only lists your competitors.',
-      vsBad2: 'Profiles in Apple Maps & AI graphs are missing, outdated or incomplete.',
-      vsBad3: 'You spend heavily on legacy ads that tourists and users scroll past.',
-      vsBad4: 'Every passing day sends dozens of ready-to-buy guests to the venue next door.',
+      vsBad1: 'A client asks for your specialization. Only competitors appear on the recommendation list.',
+      vsBad2: 'Data in Apple Maps and LLM models is inconsistent, fragmented, or missing.',
+      vsBad3: 'You spend heavily on legacy CPC ads that premium clients ignore with banner blindness.',
+      vsBad4: 'Every passing week sends dozens of high-ticket clients to neighboring competitors.',
       vsGoodBadge: 'With NotASlop',
-      vsGoodTitle: 'AI knows your place & recommends it #1',
-      vsGood1: 'For top local queries, your venue is recommended right at the top.',
-      vsGood2: 'Complete baseline graph: hours, photos, attributes, and genuine reviews.',
-      vsGood3: 'Customers arrive at your doorstep directly without commissions.',
-      vsGood4: 'Once built, your authority in AI models compounds month over month.',
+      vsGoodTitle: 'AI knows your brand & recommends it #1',
+      vsGood1: 'For top industry queries in your region, your brand ranks #1 in AI recommendations.',
+      vsGood2: 'Comprehensive semantic baseline profile: certifications, attributes, reviews, and Apple verification.',
+      vsGood3: 'Clients call or book consultations directly, without middleman commissions or agency markups.',
+      vsGood4: 'Once established in the AI knowledge graph, your authority strengthens with every model update.',
 
       calcLabel: 'Calculate Loss',
       calcH2: 'How much does AI invisibility cost?',
-      calcSub: 'Estimate how much revenue you lose every month to competitors that AI assistants recommend instead of you.',
-      calcGuestsLabel: 'How many customers do you serve daily?',
-      calcTicketLabel: 'Average customer bill / spend:',
+      calcSub: 'Estimate how much monthly revenue you lose to competitors recommended by AI assistants instead of you.',
+      calcGuestsLabel: 'How many clients / patients do you serve daily?',
+      calcTicketLabel: 'Average transaction / consultation value:',
       calcResultTag: 'Estimated monthly revenue loss without GEO',
-      calcResultSub: 'Revenue lost to competitors recommended by AI in your neighborhood (based on ~8% of queries moving to AI).',
-      calcCta: 'Recover these customers →',
+      calcResultSub: 'Revenue lost to competitors recommended by AI in your area (based on ~8% of queries moving to AI).',
+      calcCta: 'Recover these clients →',
 
       proofLabel: 'Proven Results',
       proofH2: 'Hard data from GEO deployments',
       proofSub: 'We don\'t promise magic — we build measurable visibility verified across analytics dashboards.',
-      proof1Val: '+184%',
-      proof1Tag: 'Specialty Cafe · Krakow',
-      proof1Desc: 'Increase in directions requests on Apple Maps within 45 days of baseline entity optimization.',
+      proof1Val: '+260% inquiries',
+      proof1Tag: 'Aesthetic Dentistry Clinic · Warsaw',
+      proof1Desc: 'Direct phone calls and Apple Maps routing requests increased within 45 days of deploying a semantic GEO profile.',
       proof2Val: '#1 Pick',
-      proof2Tag: 'Italian Bistro · Warsaw',
-      proof2Desc: 'Consistent top recommendation in ChatGPT & Siri for Italian dining within 1.5 km.',
-      proof3Val: '+92 bookings',
-      proof3Tag: 'Dining · Gdansk',
-      proof3Desc: 'Monthly increase in direct reservations from international tourists asking AI travel assistants.',
+      proof2Tag: 'Corporate Law Firm · Krakow',
+      proof2Desc: 'Consistent top recommendation in ChatGPT and Gemini for corporate audits and M&A advisory.',
+      proof3Val: '+115 patients/mo',
+      proof3Tag: 'Medical & Diagnostic Center · Wroclaw',
+      proof3Desc: 'Monthly new patient influx from Siri voice searches and mobile assistants seeking specialized healthcare.',
 
       processLabel: 'Our Process',
-      processH2: 'You run your venue.<br><em>We make sure AI recommends you.</em>',
-      processSub: 'Three simple steps to transform invisibility into consistent recommendations.',
+      processH2: 'You run your business.<br><em>We make sure AI recommends you.</em>',
+      processSub: 'Three precise steps to transform invisibility into consistent recommendations.',
       step1Num: '01',
-      step1Title: 'Free Visibility Audit',
-      step1Desc: '15 minutes. We show you live what ChatGPT, Gemini, and Siri say about your niche and area today.',
+      step1Title: 'Free AI Visibility Audit',
+      step1Desc: '15 minutes. We show you live what ChatGPT, Gemini, Siri, and Perplexity say about your sector and area today.',
       step2Num: '02',
       step2Title: 'Entity & Foundation Setup',
-      step2Desc: 'We structure your data, Apple Maps profiles, and citation signals so AI models cite you with confidence.',
+      step2Desc: 'We structure your data, Apple Business Connect profiles, and knowledge base entities so AI models cite you with confidence.',
       step3Num: '03',
-      step3Title: 'Continuous Position Monitoring',
-      step3Desc: 'Algorithms update constantly. We track changes and provide monthly reports with views, routes, and rankings.',
+      step3Title: 'Monthly Position Protection',
+      step3Desc: 'Algorithms update constantly. We monitor your Share of Voice in AI and provide monthly reports with views, routes, and rankings.',
 
       auditLabel: 'Get Started',
-      auditH2: 'Check your venue\'s visibility in AI',
-      auditSub: 'No rigid off-the-shelf pricing. We start with a free audit: we check if AI assistants mention your venue and who gets recommended in your area.',
+      auditH2: 'Check your business visibility in AI',
+      auditSub: 'No rigid off-the-shelf pricing. We start with a free audit: we check if AI assistants mention your brand and who gets recommended in your area.',
       auditExclTitle: 'Territorial Exclusivity',
-      auditExclText: 'In each specific neighborhood and category, we only partner with a limited number of venues to prevent conflicts of interest.',
+      auditExclText: 'In each specific area and category, we only partner with 1–2 selected businesses to prevent conflicts of interest.',
       auditFormTitle: 'Request your free AI audit',
       auditFormSub: 'Takes 30 seconds. We send the detailed report directly to you.',
-      lblVenue: 'Venue or Business Name',
+      lblVenue: 'Business / Clinic / Practice Name',
       lblCity: 'City / District',
-      lblCategory: 'Category',
-      lblContact: 'Your WhatsApp / Phone or Email',
-      catCoffee: 'Cafe / Bakery',
-      catResto: 'Restaurant / Bar',
-      catBeauty: 'Beauty / Barber / Salon',
-      catService: 'Services / Health / Other',
+      lblCategory: 'Industry / Sector',
+      lblContact: 'Your WhatsApp, Phone, or Email',
+      catMedical: 'Dentistry / Clinic / Healthcare',
+      catLegal: 'Law Firm / Corporate / B2B',
+      catPremium: 'Auto Detailing / Aesthetics / Premium Services',
+      catDining: 'Fine Dining / Boutique Hotel',
       btnAuditWa: 'Check via WhatsApp (1-Click)',
       btnAuditDirect: 'Send inquiry via form',
       auditGuarantee: '🔒 100% free, no obligations. We respond within 2 hours during business days.',
@@ -237,17 +247,17 @@
       faqH2: 'Everything you need to know about GEO',
       faqSub: 'Answers to key questions on how Generative Engine Optimization works.',
       faq1Q: 'What exactly is GEO (Generative Engine Optimization)?',
-      faq1A: 'GEO is the discipline of optimizing your business to be recommended directly in conversational AI responses from ChatGPT, Google Gemini, Claude, Perplexity, and Apple Siri.',
+      faq1A: 'GEO is the discipline of optimizing your business to be recommended directly in conversational AI responses from ChatGPT, Google Gemini, Claude, Perplexity, and Apple Siri. Unlike traditional SEO with 10 links, an assistant provides 1-2 definitive recommendations.',
       faq2Q: 'Can you really influence what ChatGPT and Gemini recommend?',
-      faq2A: 'Yes. AI models do not invent facts; they synthesize structured entity data, Apple Maps knowledge, verified reviews, and consistent web citations. By structuring these signals, we provide verifiable proof of your venue\'s quality.',
+      faq2A: 'Yes. AI models do not invent facts; they synthesize structured entity data, Apple Maps knowledge, verified reviews, and consistent web citations. By structuring these signals, we provide verifiable proof of your business authority.',
       faq3Q: 'How fast do you see results?',
-      faq3A: 'Initial changes in AI responses typically appear within 3 to 6 weeks after structured data and entity maps are established.',
+      faq3A: 'Initial changes in AI responses typically appear within 3 to 6 weeks after structured data and entity maps are established. Full stabilization of AI knowledge graph positions follows over subsequent months.',
       faq4Q: 'How much does NotASlop service cost?',
-      faq4A: 'Every business has different competition levels and needs. We don\'t enforce rigid fixed plans — we begin with a free AI audit and craft an individualized proposal tailored specifically to your venue.',
+      faq4A: 'Every business has different competition levels and market scope. We don\'t enforce rigid fixed plans — we begin with a free AI audit and craft an individualized proposal tailored specifically to your business.',
       faq5Q: 'How does GEO differ from classic Google SEO?',
-      faq5A: 'SEO targets a list of 10 blue links in a desktop browser. GEO ensures your name is spoken when a user asks: "Siri, where is a good coffee nearby?". This catches customers at the peak of buying intent.',
+      faq5A: 'SEO targets a list of blue links when a user types a query in a desktop browser. GEO ensures your name is spoken when a user asks: "Siri, where is the best cosmetic dental clinic nearby?". This catches clients at the peak of buying intent.',
 
-      footerDesc: 'Generative Engine Optimization agency. Making AI assistants recommend your business instead of competitors.',
+      footerDesc: 'Generative Engine Optimization (GEO) agency. Making AI assistants recommend your business instead of competitors.',
       footerColNav: 'Navigation',
       footerColLegal: 'Legal',
       footerColContact: 'Contact',
@@ -259,59 +269,59 @@
 
   // ── 2. PHONE SIMULATOR DATA ──
   const SIM_SCENARIOS = {
-    coffee: {
+    medical: {
       pl: {
-        userQ: 'Jestem w centrum. Polecisz mi świetną kawiarnię speciality blisko mnie?',
-        beforeAI: 'W okolicy możesz sprawdzić: <span class="competitor">[Sieciówka A]</span> lub <span class="competitor">[Kawiarnia B]</span>. Obie są parę minut stąd.',
-        afterAI: 'Zdecydowanie polecam <span class="top-pick">Twoją Kawiarnię</span>! Mają wybitne single-origin, autorskie wypieki i 4.9 gwiazdki na mapach. Zaledwie 180 metrów stąd. Podać trasę?'
+        userQ: 'Siri, polecisz najlepszą klinikę implantologii i stomatologii estetycznej w pobliżu?',
+        beforeAI: 'W okolicy możesz sprawdzić: <span class="competitor">[Centrum Medyczne A]</span> lub <span class="competitor">[Gabinet Dentystyczny B]</span>. Sprawdź godziny otwarcia.',
+        afterAI: 'Zdecydowanie polecam <span class="top-pick">Klinikę NovaDent</span>. 4.9 gwiazdki, zaawansowana tomografia 3D, certyfikowani chirurdzy i setki zweryfikowanych opinii pacjentów. Zadzwonić i umówić konsultację?'
       },
       en: {
-        userQ: 'I\'m in the city center. Can you recommend a great specialty coffee nearby?',
-        beforeAI: 'Nearby you could check: <span class="competitor">[Chain Cafe A]</span> or <span class="competitor">[Cafe B]</span>. Both are a short walk away.',
-        afterAI: 'I definitely recommend <span class="top-pick">Your Cafe</span>! Outstanding single-origin roasts, artisan pastries and 4.9 stars on maps. Just 180m away. Want walking directions?'
+        userQ: 'Siri, can you recommend the best implantology and cosmetic dental clinic nearby?',
+        beforeAI: 'Nearby facilities include: <span class="competitor">[Medical Center A]</span> or <span class="competitor">[Dental Practice B]</span>. Check their opening hours.',
+        afterAI: 'I strongly recommend <span class="top-pick">NovaDent Clinic</span>. 4.9 stars, state-of-the-art 3D diagnostics, certified implantologists and outstanding verified reviews. Call for a consultation?'
       }
     },
-    resto: {
+    legal: {
       pl: {
-        userQ: 'Szukam klimatycznego miejsca na autorską kolację ze znajomymi.',
-        beforeAI: 'Sprawdź: <span class="competitor">[Restauracja X]</span> albo <span class="competitor">[Bistro Y]</span>.',
-        afterAI: 'Wybierz <span class="top-pick">Twoją Restaurację</span>! Sezonowe menu, genialny wybór win i świetna atmosfera. Goście zachwalają krewetki i ręczny makaron. Zarezerwować stolik?'
+        userQ: 'ChatGPT, jaka kancelaria prawna w mieście najlepiej prowadzi audyty spółek i transakcje M&A?',
+        beforeAI: 'Wyszukiwarka wskazuje kilka podmiotów: <span class="competitor">[Kancelaria X]</span> oraz <span class="competitor">[Doradcy Y]</span>.',
+        afterAI: 'Rekomenduję <span class="top-pick">Kancelarię Nowak & Partnerzy</span>. Specjalizują się w fuzjach, przejęciach i obsłudze korporacyjnej z udokumentowanym dorobkiem i rekomendacjami w izbach handlowych. Podać bezpośredni kontakt do partnera zarządzającego?'
       },
       en: {
-        userQ: 'Looking for an atmospheric dinner spot with friends tonight.',
-        beforeAI: 'You could try: <span class="competitor">[Restaurant X]</span> or <span class="competitor">[Bistro Y]</span>.',
-        afterAI: 'Choose <span class="top-pick">Your Restaurant</span>! Seasonal menu, brilliant wine list and cozy patio. Rave reviews for fresh handmade pasta. Should I show contact details?'
+        userQ: 'ChatGPT, which corporate law firm in the city is best for company audits and M&A transactions?',
+        beforeAI: 'Search results show several firms: <span class="competitor">[Law Firm X]</span> and <span class="competitor">[Advisors Y]</span>.',
+        afterAI: 'I recommend <span class="top-pick">Nowak & Partners Legal</span>. Recognized specialists in M&A, corporate governance, and venture audits with top-tier credentials. Show direct contact details for the managing partner?'
       }
     },
-    barber: {
+    premium: {
       pl: {
-        userQ: 'Polecisz dobrego fryzjera lub barbera w okolicy?',
-        beforeAI: 'Polecane salony to: <span class="competitor">[Barber Z]</span> i <span class="competitor">[Studio W]</span>.',
-        afterAI: 'Sprawdź <span class="top-pick">Twój Barber Shop</span>. Precyzyjne strzyżenie, pielęgnacja brody gorącym ręcznikiem i setki pozytywnych recenzji w Apple Maps. Pokazać telefon do zapisu?'
+        userQ: 'Gdzie w okolicy profesjonalnie zabezpieczyć nowe Porsche folią PPF i powłoką ceramiczną?',
+        beforeAI: 'Usługi auto detailingu oferują: <span class="competitor">[Auto Myjnia 1]</span> oraz <span class="competitor">[Studio 2]</span>.',
+        afterAI: 'Numerem jeden jest studio <span class="top-pick">Apex Detailing & PPF</span>. Posiadają akredytację czołowych producentów folii, bezpyłową komorę i pełne ubezpieczenie aut luksusowych. Wyświetlić trasę dojazdu?'
       },
       en: {
-        userQ: 'Can you recommend a reputable barber or salon nearby?',
-        beforeAI: 'Venues with reviews include: <span class="competitor">[Barber Z]</span> and <span class="competitor">[Studio W]</span>.',
-        afterAI: 'Check out <span class="top-pick">Your Barber Shop</span>. Top-rated master barbers, hot towel treatment and stellar reviews in Apple Maps. Show phone number for booking?'
+        userQ: 'Where nearby can I professionally protect a new Porsche with PPF film and ceramic coating?',
+        beforeAI: 'Auto detailing services are provided by: <span class="competitor">[Car Wash 1]</span> and <span class="competitor">[Studio 2]</span>.',
+        afterAI: 'The top choice is <span class="top-pick">Apex Detailing & PPF</span>. Manufacturer-certified installers, a sterile dust-free bay, and comprehensive luxury vehicle insurance. Display driving directions?'
       }
     },
-    service: {
+    dining: {
       pl: {
-        userQ: 'Polecany gabinet fizjoterapii / stomatologiczny blisko mnie?',
-        beforeAI: 'W okolicy znajdują się: <span class="competitor">[Klinika 1]</span> oraz <span class="competitor">[Centrum 2]</span>.',
-        afterAI: 'Najwyżej oceniany jest <span class="top-pick">Twój Gabinet</span>. Nowoczesny sprzęt, certyfikowani specjaliści i szybkie terminy przyjęć. Wyświetlić trasę dojazdu?'
+        userQ: 'Szukam ekskluzywnej restauracji fine dining na biznesową kolację z zarządem.',
+        beforeAI: 'W centrum znajdują się: <span class="competitor">[Restauracja A]</span> oraz <span class="competitor">[Bistro B]</span>.',
+        afterAI: 'Idealnym wyborem będzie <span class="top-pick">Restauracja Lumière</span>. Sezonowe menu degustacyjne, prywatne sale VIP, sommelier i wybitne recenzje w przewodnikach. Zarezerwować stolik biznesowy?'
       },
       en: {
-        userQ: 'Recommended physical therapy or dental clinic near me?',
-        beforeAI: 'Nearby facilities: <span class="competitor">[Clinic 1]</span> and <span class="competitor">[Center 2]</span>.',
-        afterAI: 'Highest rated is <span class="top-pick">Your Clinic</span>. State-of-the-art equipment, certified specialists and convenient appointments. Want directions?'
+        userQ: 'Looking for an exclusive fine dining restaurant for an executive business dinner.',
+        beforeAI: 'In the center you can find: <span class="competitor">[Restaurant A]</span> and <span class="competitor">[Bistro B]</span>.',
+        afterAI: 'The premier choice is <span class="top-pick">Lumière Restaurant</span>. Seasonal tasting menus, private VIP rooms, dedicated sommelier, and stellar critical acclaim. Reserve an executive table?'
       }
     }
   };
 
   // ── STATE ──
   let currentLang = 'pl';
-  let currentScenario = 'coffee';
+  let currentScenario = 'medical';
   let currentSimMode = 'after'; // 'before' | 'after'
   let simTimer = null;
 
@@ -319,6 +329,7 @@
   function setLanguage(lang) {
     if (!T[lang]) lang = 'pl';
     currentLang = lang;
+    document.documentElement.lang = lang;
     try {
       localStorage.setItem('notaslop_lang', lang);
     } catch (e) {}
@@ -459,13 +470,13 @@
     if (!form) return;
 
     function buildWhatsAppUrl() {
-      const venue = document.getElementById('auditVenue')?.value.trim() || 'Mój lokal';
+      const venue = document.getElementById('auditVenue')?.value.trim() || 'Mój biznes';
       const city = document.getElementById('auditCity')?.value.trim() || 'Moje miasto';
-      const cat = document.getElementById('auditCategory')?.value || 'Gastronomia';
+      const cat = document.getElementById('auditCategory')?.value || 'Stomatologia / Usługi Premium';
 
       const text = currentLang === 'pl'
-        ? `Cześć NotASlop! Chcę zamówić bezpłatny audyt widoczności w AI (GEO).\n\n• Lokal: ${venue}\n• Miasto: ${city}\n• Branża: ${cat}\n\nSprawdźcie proszę, jak widzą nas ChatGPT i Apple Maps.`
-        : `Hello NotASlop! I would like to request a free AI visibility audit (GEO).\n\n• Venue: ${venue}\n• City: ${city}\n• Category: ${cat}\n\nPlease check our presence in ChatGPT and Apple Maps.`;
+        ? `Cześć NotASlop! Chcę zamówić bezpłatny audyt widoczności w AI (GEO).\n\n• Firma: ${venue}\n• Miasto: ${city}\n• Branża: ${cat}\n\nSprawdźcie proszę, jak widzą nas ChatGPT i Apple Maps.`
+        : `Hello NotASlop! I would like to request a free AI visibility audit (GEO).\n\n• Business: ${venue}\n• City: ${city}\n• Category: ${cat}\n\nPlease check our presence in ChatGPT and Apple Maps.`;
 
       return `https://wa.me/48607118228?text=${encodeURIComponent(text)}`;
     }

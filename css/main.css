@@ -4,8 +4,6 @@
    Zero external CSS frameworks. 100% Native, blazing fast.
    ══════════════════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&family=Syne:wght@600;700;800&display=swap');
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -930,7 +928,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .proof-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.6rem;
   margin-top: 3rem;
 }
@@ -943,6 +941,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 0;
 }
 
 .proof-card:hover {
@@ -953,11 +952,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .proof-metric {
   font-family: var(--fd);
-  font-size: 2.2rem;
+  font-size: clamp(1.45rem, 5vw, 2.2rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   color: var(--terra);
   margin-bottom: 0.3rem;
+  line-height: 1.15;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .proof-tag {
@@ -967,6 +969,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 1rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .proof-desc {
@@ -983,7 +987,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .process-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.8rem;
   margin-top: 3rem;
 }
@@ -996,6 +1000,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .step-num {
@@ -1030,9 +1035,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .audit-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 3.5rem;
   align-items: center;
+}
+
+.audit-content {
+  min-width: 0;
 }
 
 .audit-content .section-label {
@@ -1079,6 +1088,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: var(--radius-xl);
   padding: clamp(2rem, 4vw, 2.8rem);
   box-shadow: var(--shadow-lg);
+  min-width: 0;
 }
 
 .audit-card h3 {
@@ -1478,31 +1488,41 @@ h1, h2, h3, h4, h5, h6 {
 /* ── RESPONSIVE MEDIA QUERIES ── */
 @media (max-width: 990px) {
   .hero-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 3rem;
   }
   
   .ticker-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
   }
   
   .versus-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   
   .calc-box {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 2.5rem;
   }
   
   .proof-grid,
   .process-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   
   .audit-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .proof-grid > *,
+  .process-grid > *,
+  .audit-grid > *,
+  .versus-grid > *,
+  .ticker-grid > *,
+  .hero-grid > *,
+  .calc-box > * {
+    min-width: 0;
   }
 }
 
@@ -1607,7 +1627,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .ticker-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 1.2rem;
   }
 
@@ -1633,7 +1653,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .proof-metric {
-    font-size: 1.85rem;
+    font-size: clamp(1.35rem, 5.5vw, 1.7rem);
   }
 
   .audit-card {

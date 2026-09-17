@@ -13,6 +13,37 @@
   <meta property="og:url" content="https://notaslop.com/blog/strona-internetowa-ktora-sprzedaje/" />
   <meta property="og:site_name" content="NotASlop" />
   <meta property="og:image" content="https://notaslop.com/og-cover.png" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Schema.org BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://notaslop.com/blog/strona-internetowa-ktora-sprzedaje/"
+    },
+    "headline": "Strona internetowa, którą pokocha Google i AI",
+    "description": "Dlaczego tradycyjne strony www zawodzą w erze sztucznej inteligencji i jak przygotować architekturę semantyczną pod GEO.",
+    "image": "https://notaslop.com/og-cover.png",
+    "author": {
+      "@type": "Organization",
+      "name": "Eksperci NotASlop",
+      "url": "https://notaslop.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NotASlop",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://notaslop.com/favicon.svg"
+      }
+    },
+    "datePublished": "2026-09-10",
+    "dateModified": "2026-09-17"
+  }
+  </script>
 
   <!-- Google Fonts Preconnect & Stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -65,7 +96,13 @@
       <a href="/blog/" style="display:inline-block; margin-bottom:1rem; color:var(--terra); text-decoration:none; font-weight:700; font-size:0.85rem;">← Wróć do bloga</a>
       <div class="section-label">Web & AI Architecture</div>
       <h1 class="section-title">Strona internetowa, którą pokocha Google i modele językowe</h1>
-      <p class="section-sub">
+      <div class="article-meta" style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 0; font-size:0.88rem; color:var(--ink-muted); font-family:var(--fm); flex-wrap:wrap;">
+        <span>✍️ Eksperci NotASlop</span>
+        <span>📅 Wrzesień 2026</span>
+        <span>⏱️ 5 min czytania</span>
+        <span>🏷️ Web Architecture & LLM Grounding</span>
+      </div>
+      <p class="section-sub" style="margin-top: 1.2rem;">
         Większość stron www budowanych jest wyłącznie z myślą o ludzkim wzroku. W erze AI równie ważnym odbiorcą jest bot indeksujący OpenAI, Apple i Google.
       </p>
     </div>
@@ -74,22 +111,32 @@
   <!-- ═══ ARTICLE BODY ═══ -->
   <main class="article-wrap">
     <article class="article-body">
-      <p>Tradycyjne podejście do tworzenia stron internetowych opierało się na ciężkich szablonach WordPressa, dziesiątkach wtyczek i animacjach flashowanych na JavaScript. Choć dla człowieka mogło to wyglądać efektownie, dla crawlerów sztucznej inteligencji (takich jak GPTBot czy Applebot) stanowiło barierę nie do przejścia.</p>
+      <p>Tradycyjne podejście do tworzenia stron internetowych opierało się na ciężkich szablonach WordPressa, dziesiątkach wtyczek i animacjach flashowanych na JavaScript. Choć dla człowieka mogło to wyglądać efektownie, dla crawlerów sztucznej inteligencji (takich jak GPTBot, ClaudeBot czy Applebot) stanowiło barierę nie do przejścia.</p>
 
-      <p>W świecie <strong>Generative Engine Optimization (GEO)</strong> strona firmowa musi pełnić funkcję perfekcyjnie ustrukturyzowanej bazy wiedzy. Maszyny czytają dane semantycznie — jeśli nie potrafią w 20 milisekund wyodrębnić godzin otwarcia, cennika czy specjalizacji lokalu, po prostu Cię pominą i zacytują konkurenta.</p>
+      <p>W świecie <strong>Generative Engine Optimization (GEO)</strong> strona firmowa musi pełnić funkcję perfekcyjnie ustrukturyzowanej bazy wiedzy. Maszyny czytają dane semantycznie — jeśli nie potrafią w 20 milisekund wyodrębnić godzin przyjęć, cennika procedur czy precyzyjnych specjalizacji, po prostu pominą Twój podmiot i zarekomendują konkurenta.</p>
 
       <h2>Zasada „No Slop”: Dlaczego szybkość i czysty kod to podstawa</h2>
       <ul>
         <li><strong>Czas odpowiedzi serwera (TTFB):</strong> Nowoczesne boty AI przeszukują miliardy podstron dziennie. Serwisy ładujące się powyżej 2 sekund są klasyfikowane jako mało efektywne i rzadziej indeksowane w czasie rzeczywistym.</li>
         <li><strong>Semantyczny HTML5 zamiast div-soup:</strong> Używanie poprawnych tagów nagłówków, sekcji, artykułów i tabel pozwala modelom bezpośrednio mapować fakty o Twojej firmie.</li>
-        <li><strong>Rozbudowane mikrodane Schema.org:</strong> Precyzyjne oznaczenie typu biznesu (np. <code>CafeOrCoffeeShop</code>, <code>ItalianRestaurant</code>, <code>HairSalon</code>), menu, przedziałów cenowych oraz współrzędnych geo to klucz do cytowania w promptach turystycznych.</li>
+        <li><strong>Rozbudowane mikrodane Schema.org:</strong> Precyzyjne oznaczenie typu biznesu (np. <code>Dentist</code>, <code>LegalService</code>, <code>AutoRepair</code>, <code>MedicalBusiness</code>), certyfikatów, zespołu ekspertów, przedziałów cenowych oraz współrzędnych geo to klucz do cytowania w bezpośrednich odpowiedziach AI.</li>
       </ul>
 
       <h2>Synergia: Twoja strona jako źródło prawdy</h2>
-      <p>Asystenci AI nie rekomendują miejsc na podstawie domysłów. Gdy ChatGPT przygotowuje odpowiedź na pytanie turysty, szuka potwierdzenia („grounding”) w wiarygodnych źródłach. Twoja strona internetowa, wyposażona w certyfikowane dane strukturalne, staje się dla algorytmów <strong>ostatecznym źródłem prawdy</strong>.</p>
+      <p>Asystenci AI nie rekomendują miejsc na podstawie domysłów. Gdy ChatGPT przygotowuje odpowiedź na pytanie klienta szukającego sprawdzonej kliniki lub kancelarii, szuka potwierdzenia („grounding”) w wiarygodnych źródłach. Twoja strona internetowa, wyposażona w certyfikowane dane strukturalne, staje się dla algorytmów <strong>ostatecznym źródłem prawdy</strong>.</p>
     </article>
 
-    <div class="calc-result-card" style="margin-top: 3.5rem;">
+    <!-- Internal Linking Box -->
+    <div class="related-articles-box" style="margin-top: 3.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+      <h3 style="font-family: var(--fd); font-size: 1.25rem; margin-bottom: 1rem; color: var(--ink);">Powiązane analizy GEO</h3>
+      <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem;">
+        <li><a href="/blog/jak-byc-polecanym-przez-chatgpt-i-siri/" style="color: var(--terra); font-weight: 600; text-decoration: none;">Jak sprawić, by ChatGPT i Siri polecały Twoją firmę, a nie konkurencję →</a></li>
+        <li><a href="/blog/apple-maps-i-siri-lokalna-widocznosc/" style="color: var(--terra); font-weight: 600; text-decoration: none;">Apple Maps: mapa, której nie widzisz, a która przynosi najzamożniejszych klientów →</a></li>
+      </ul>
+    </div>
+
+    <!-- Call to action inside post -->
+    <div class="calc-result-card" style="margin-top: 2rem;">
       <div class="calc-result-tag">Bezpłatny audyt techniczny</div>
       <div class="calc-amount" style="font-size: 1.8rem;">Sprawdź semantykę swojej strony</div>
       <p class="calc-subtext">Przeanalizujemy kod Twojej witryny pod kątem odczytu przez roboty sztucznej inteligencji i wskażemy brakujące znaczniki.</p>
